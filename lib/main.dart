@@ -24,6 +24,8 @@ class MyApp extends StatelessWidget {
         LoginScreen.ROUTE_LOGIN: (context) => LoginScreen(),
         SignupScreen.ROUTE_SIGNUP: (context) => SignupScreen(),
         HomeScreen.ROUTE_NEXT: (context) => HomeScreen(),
+        //DetailPage.routeName: (ctx) => DetailPage(),
+        //CartScreen.routeName: (ctx) => CartScreen(),
       },
     );
   }
